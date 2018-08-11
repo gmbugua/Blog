@@ -28,32 +28,16 @@ body {
   width: 100%;
   padding: 0;
   height: 700px;
-  background: url(img/background-photo.jpg);
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/background-photo.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   display: table;
 }
 
-.overlay {
-  position: absolute;
-  top: 0px;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  height: 700px;
-  background: rgba(0, 0, 0, 0.5);
-}
-
-.banner-msg {
+.banner-card {
   display: table-cell;
   vertical-align: middle;
-}
-
-.main-banner {
-  text-align: center;
-  font-size: 60px;
-  font-color: white;
 }
 
 /* Navigation */
@@ -63,7 +47,6 @@ nav {
   width: 100%;
   padding: 8px;
   height: 84px;
-  z-index: 1;
 }
 
 .logo {
